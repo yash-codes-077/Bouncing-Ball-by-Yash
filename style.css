@@ -114,3 +114,59 @@ footer {
 .paused .shadow {
   animation-play-state: paused !important;
 }
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  #toggle-btn {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+
+  .ball {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.15);
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.1rem;
+  }
+
+  header p {
+    font-size: 0.8rem;
+  }
+
+  #toggle-btn {
+    font-size: 0.8rem;
+    padding: 4px 10px;
+  }
+
+  .ball-wrapper {
+    animation-duration: 1.2s;
+  }
+
+  .ball {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .shadow {
+    width: 35px !important;
+    height: 8px !important;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
+}
+
